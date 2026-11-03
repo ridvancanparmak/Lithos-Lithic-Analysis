@@ -2,7 +2,24 @@
 
 **Lithos v1.0.2** is a Windows desktop application for technological, typological and metrical analysis of Palaeolithic chipped-stone assemblages. It reads compatible Microsoft Access databases, presents hierarchical core/tool type and subtype distributions, generates charts and bilingual Word reports, and supports Turkish and English interfaces.
 
-> **Status:** Lithos is an evolving research software project. Windows installers and portable builds should be downloaded from [Releases](https://github.com/ridvancanparmak/Lithos-Lithic-Analysis/releases) when available and verified on Windows.
+> **Status:** **v1.0.2 — Pre-release.** Lithos is an evolving research software project. Windows Setup and Portable packages are available below.
+
+## Download Lithos for Windows / Lithos'u Windows için indir
+
+**Available version: v1.0.2 — Initial Windows Release (Pre-release)**
+
+| Package / Paket | Direct download / Doğrudan indir |
+| --- | --- |
+| **Windows Setup** — standard installer / normal kurulum | **[Download Lithos v1.0.2 Setup (.exe)](https://github.com/ridvancanparmak/Lithos-Lithic-Analysis/releases/download/v1.0.2/Lithos_v1.0.2_Setup.exe)** |
+| **Windows Portable** — no installation required / kurulumsuz | **[Download Lithos v1.0.2 Portable (.zip)](https://github.com/ridvancanparmak/Lithos-Lithic-Analysis/releases/download/v1.0.2/Lithos_v1.0.2_Portable.zip)** |
+
+[**Release notes and all downloads / Sürüm notları ve tüm indirmeler**](https://github.com/ridvancanparmak/Lithos-Lithic-Analysis/releases/tag/v1.0.2)
+
+**EN:** For Setup, download the `.exe` and run it on Windows 10/11 (64-bit). For Portable, extract the **entire ZIP** and launch `Lithos_v1_0_2.exe` from the extracted folder; do not move the executable by itself. Compatible Microsoft Access/ACE drivers may be necessary for database operations. The current release is a **pre-release** and has not been independently verified on every Windows configuration. The archaeological source records are not included.
+
+**TR:** Kurulum için `.exe` dosyasını indirip Windows 10/11 (64-bit) üzerinde çalıştırın. Portable sürümde **ZIP'in tamamını çıkarın** ve klasörün içindeki `Lithos_v1_0_2.exe` dosyasını açın; EXE'yi tek başına taşımayın. Veritabanı işlemleri için uygun Microsoft Access/ACE sürücülerine ihtiyaç duyulabilir. Bu sürüm **ön sürümdür (Pre-release)**; her Windows yapılandırmasında bağımsız olarak doğrulanmış değildir. Özgün arkeolojik araştırma kayıtları dağıtıma dahil değildir.
+
+> **Note / Not:** GitHub's automatically generated **Source code (zip)** is **not** the Windows Portable application. Use the Portable download above. / GitHub'ın otomatik oluşturduğu **Source code (zip)** dosyası çalışan Portable sürüm değildir; yukarıdaki Portable bağlantısını kullanın.
 
 ## Application screenshot / Uygulama ekran görüntüsü
 
@@ -20,17 +37,6 @@ The project's broader objective is to support **data standardization in Palaeoli
 **TR —** Lithos, **Korkuteli (Antalya) Gürbelen Tepe Orta Paleolitik Çağ yontmataş buluntu topluluğu** üzerine yürüttüğüm yüksek lisans araştırmasında kullandığım Microsoft Access veritabanını başlangıç örneği alan, araştırma odaklı bir yazılım girişimi olarak ortaya çıkmıştır. Bu örnek; veritabanı yapısı, terminoloji ve analiz iş akışlarının ilk geliştirme aşamasına temel oluşturmuştur. **Özgün arkeolojik buluntu kayıtları bu açık depoda paylaşılmamaktadır.**
 
 Projenin daha geniş hedefi, **Paleolitik Çağ arkeolojisinde veri standardizasyonuna** katkıda bulunmaktır. Lithos; yontmataş buluntuların tutarlı belgelenmesini, teknolojik ve tipolojik sınıflandırmaların daha sistematik yürütülmesini, iki dilli terminoloji kullanımını, yapılandırılmış veri yönetimini ve farklı araştırmalar arasında karşılaştırılabilir analizleri desteklemeyi amaçlar. **Lithos gelişime açık bir projedir**; mevcut yapı, tamamlanmış ve evrensel bir sınıflandırma standardı olarak sunulmamaktadır. Gelecek aşamalarda veri doğrulama, birlikte çalışabilirlik, görselleştirme, yeni veri alanları ve analiz yöntemlerinin geliştirilmesi hedeflenmektedir.
-
-## Downloading Lithos / Lithos'u indirme
-
-The project is intended to be distributed in two Windows formats through [GitHub Releases](https://github.com/ridvancanparmak/Lithos-Lithic-Analysis/releases):
-
-- **Setup:** a Windows installer for conventional installation.
-- **Portable:** a ZIP archive that can be extracted and run without an installer (system Access/ACE drivers may still be required).
-
-**Release assets should be published only after Windows testing.** At present, the repository is a source-code distribution unless tested `Setup.exe` and Portable ZIP files are attached to a release. A GitHub-generated *Source code (zip)* archive is **not** the Portable application.
-
-**TR —** Kullanıcılar, Windows üzerinde test edilmiş **Setup (kurulum)** ve **Portable (kurulumsuz)** sürümleri yayımlandığında bunları [Releases](https://github.com/ridvancanparmak/Lithos-Lithic-Analysis/releases) bölümünden indirebilecektir. GitHub'ın otomatik sunduğu *Source code (zip)* dosyası çalıştırılabilir Portable paket değildir.
 
 ## Features / Özellikler
 
@@ -72,7 +78,7 @@ This version's template-building script derives two blank `.accdb` files from th
 - `veri_sozlugu/` — bilingual terminology mappings / iki dilli terim sözlükleri
 - `tests/` — automated tests / otomatik testler
 - `Templates/` — documentation for empty Access templates / boş Access şablon açıklamaları
-- `docs/` — visual design reference / tasarım referansı
+- `docs/` — application screenshot and documentation / uygulama ekran görüntüsü ve belgeler
 - `*.bat`, `installer.iss` — Windows build files / Windows derleme dosyaları
 
 ## Developer / Geliştirici
