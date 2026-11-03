@@ -21,6 +21,28 @@
 
 > **Note / Not:** GitHub's automatically generated **Source code (zip)** is **not** the Windows Portable application. Use the Portable download above. / GitHub'ın otomatik oluşturduğu **Source code (zip)** dosyası çalışan Portable sürüm değildir; yukarıdaki Portable bağlantısını kullanın.
 
+## Create a blank Access database / Boş Access veritabanı oluşturma
+
+**TR —** Araştırmacıların ayrı bir Access dosyası indirmesi zorunlu değildir. **Lithos v1.0.2**, kurulum paketine dahil edilmiş boş şablonları kullanarak uygulama içinden veritabanı oluşturmayı destekler:
+
+1. Lithos'u açın ve soldaki **Veritabanı** sekmesine geçin.
+2. **+ Yeni Veritabanı** düğmesine tıklayın.
+3. **Türkçe** veya **English** şablonunu seçip onaylayın.
+4. Yeni `.accdb` dosyasını kaydedeceğiniz konumu ve dosya adını belirleyin.
+5. Verilerinizi **Microsoft Access** üzerinden kaydedin; ardından dosyanızı Lithos'ta açıp analiz edin.
+
+**EN —** You do not need to download a separate database file if the blank templates were packaged with Lithos:
+
+1. Open Lithos and go to the **Database** page.
+2. Click **+ Create Database**.
+3. Choose the **Türkçe** or **English** blank template.
+4. Select the destination and filename for the new `.accdb` file.
+5. Enter or edit archaeological records using **Microsoft Access**, then open the database in Lithos for analysis.
+
+**Compatibility / Uyumluluk:** In **v1.0.2**, the database creation feature uses blank templates derived from the Gürbelen-18 schema. These are **starter templates**, not a universal archaeological data model. Other research databases with different structures are **not yet automatically imported or mapped**. Creation requires the relevant blank template to be present in the installed/portable distribution; Access/ACE drivers may also be necessary. / Bu sürüm farklı tablo ve sütun yapılarını otomatik eşleştirmez; boş şablonların dağıtım paketinde bulunması gerekir. Uygun Access/ACE sürücüsüne ihtiyaç duyulabilir.
+
+**Data protection / Veri güvenliği:** Blank templates must contain **no original research records, identifying metadata, sensitive information, or linked external data**. / Boş şablonlar özgün araştırma kayıtlarını, kişisel verileri veya dış bağlantılı verileri içermemelidir.
+
 ## Application screenshot / Uygulama ekran görüntüsü
 
 ![Actual Lithos Windows desktop application interface showing typological analysis and visual results](docs/lithos_screenshot.jpg)
