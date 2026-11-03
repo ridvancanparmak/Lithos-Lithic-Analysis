@@ -2,9 +2,14 @@
 
 **Lithos v1.0.2** is a Windows desktop application for technological, typological and metrical analysis of Palaeolithic chipped-stone assemblages. It reads compatible Microsoft Access databases, presents hierarchical core/tool type and subtype distributions, generates charts and bilingual Word reports, and supports Turkish and English interfaces.
 
-> **Status:** Public source-code release / Windows-build project, **not** a ready-to-install binary. Windows startup and Microsoft Access/ACE operations have to be verified on a compatible Windows system. The approved UI reference image is a **design mock-up**, not a guarantee that every screen is pixel-identical.
+> **Status:** Lithos is an evolving research software project. Windows installers and portable builds should be downloaded from [Releases](https://github.com/ridvancanparmak/Lithos-Lithic-Analysis/releases) when available and verified on Windows.
 
-![Lithos UI design reference (conceptual mock-up)](docs/ONAYLANAN_TASARIM_REFERANSI.png)
+## Application screenshot / Uygulama ekran görüntüsü
+
+![Actual Lithos Windows desktop application interface showing typological analysis and visual results](docs/lithos_screenshot.jpg)
+
+*Actual screenshot of the Lithos desktop application (Turkish interface). The archaeological research database shown in the screenshot is **not included** in this public repository.*  
+*Lithos masaüstü uygulamasının gerçek ekran görüntüsü (Türkçe arayüz). Görselde kullanılan arkeolojik araştırma veritabanı **bu açık depoda paylaşılmamaktadır**.*
 
 ## Research origins and vision / Araştırma temeli ve hedefi
 
