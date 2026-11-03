@@ -1,0 +1,3 @@
+Bu PNG kullanicinin onayladigi GORSEL REFERANSTIR. Gercek Qt ekraninin Windows
+uzerinde alinmis goruntusu degildir. Ekrandaki buluntu sayilari temsili olup
+uygulama koduna sabitlenmemistir. Gercek sayilar Access veritabanindan gelir.

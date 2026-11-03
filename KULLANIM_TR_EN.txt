@@ -1,0 +1,23 @@
+﻿# Lithos v1.0.2 — TR / EN
+
+## Bu sürümde ne değişti?
+- İlk açılıştaki "yeni veritabanı oluştur / veritabanı dili" penceresi tamamen kaldırıldı.
+- Her iki boş Access veritabanı şablonunun **paket hazırlanırken** (kurulumdan önce) üretilmesi zorunlu.
+- Türkçe ve İngilizce dosyalar, orijinal `GURBELEN-18.accdb` içindeki dört tablonun ve tüm alanların birebir şemasını korur; envanter kayıtları boşaltılır.
+- İngilizce şablonda özgün teknik alan kimlikleri korunur, Access'te görünen başlıklar ve açılır liste değerleri İngilizceleştirilir; tablolar `Features`, `Cores`, `Macroliths`, `Microliths` olarak adlandırılır.
+- Yeni dağ görseli 2172 × 355 piksel, panoramik ve solda saydam geçişli. Kaynak bağımsızdır; görüntü en-boy oranı korunarak, yatay esneme olmadan çizilir.
+- Mevcut Word raporları, alet/çekirdek tipi–alt tipi analizleri, pasta grafikler, TR | ENG bayrakları korunmuştur.
+
+## Windows'ta tek seferlik dağıtım hazırlığı
+1. ZIP'i **yeni** klasöre açın.
+2. Orijinal `GURBELEN-18.accdb` dosyasını aynı klasöre koyun (dosya yalnızca okunur, değişmez).
+3. `00_HEPSINI_HAZIRLA.bat` çalıştırın. Python 3.12/3.13/3.14 ve Access ACE/DAO kurulu olmalıdır; Python 3.15'i kaldırmayın.
+4. Betik önce iki gerçek ve **boş** `.accdb` şablonunu `Templates/` altında oluşturur, sonra testleri ve portable derlemeyi çalıştırır. Sonraki adımda Setup derlemesi isteğe bağlıdır.
+5. `dist/Lithos_v1_0_2/` tümüyle portable sürümdür; `dist/Lithos_v1.0.2_Setup.exe` kurulum dosyasıdır (Inno Setup yüklüyse).
+6. Programı başlatınca hiçbir şablon oluşturma sihirbazı açılmaz; doğrudan Lithos arayüzü açılır. Veritabanı sekmesinde ister mevcut Access dosyasını açın, ister **kurulumda hazır gelen** Türkçe/İngilizce boş şablondan yeni dosya kopyalayın.
+
+### English
+Two blank Access databases, derived exclusively from the original GURBELEN-18.accdb schema, are generated *before* Windows packaging. The installed app launches directly without a database-creation welcome wizard. A high-resolution, non-stretched mountain panorama is included. Analysis, charts, and bilingual Word reports remain available.
+
+## Dürüst teslim durumu
+Bu Linux geliştirme ortamında Microsoft Access/ACE olmadığından gerçek `.accdb` dosyalarını burada oluşturup doğrulayamadım. ZIP'in içinde bunları Windows'ta **önceden oluşturacak** betik vardır; bu nedenle ZIP, henüz hazır kurulmuş Windows uygulaması veya iki fiziksel boş `.accdb` içermiyor. Uygulama açılışında üretim yaptırılmaz.

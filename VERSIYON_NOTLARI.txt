@@ -1,0 +1,8 @@
+﻿Lithos v1.0.2 — clean update:
+- removed startup welcome/template creation dialogue
+- removed runtime Access builder
+- added native 2172x355 mountain image with true aspect ratio
+- both original-schema TR+EN blank Access templates mandatory at build time
+- Windows packaging and shortcuts updated to version 1.0.2
+
+Yama notu: Derleme icin gerekli requirements.txt ve Windows paketinin kullandigi iki .txt dosyasi tam projeye eklendi.

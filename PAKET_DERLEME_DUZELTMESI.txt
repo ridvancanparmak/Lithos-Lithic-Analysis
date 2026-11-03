@@ -1,0 +1,27 @@
+Lithos v1.0.2 - TAM PAKET DERLEME DUZELTMESI
+
+NEDEN DURUYORDU?
+Onceki ZIP dosyasinda requirements.txt bulunmuyordu. 02_PORTABLE_OLUSTUR.bat
+Python kutuphanelerini yuklemeye baslarken bu dosyayi ariyor ve duruyordu.
+Paketin ayrica kopyalamaya calistigi KULLANIM_TR_EN.txt ve VERSIYON_NOTLARI.txt
+dosyalari da eksikti.
+
+BU TAM PAKETTE:
+* requirements.txt, KULLANIM_TR_EN.txt ve VERSIYON_NOTLARI.txt eklendi.
+* Derleme basinda gerekli dosyalar kontrol ediliyor.
+* requirements.txt mutlak proje yoluyla veriliyor.
+* Kullanici kilavuzu ve surum notlari EXE klasorune basariyla kopyalanmadan
+  test asamasina gecilmiyor.
+* Mevcut GUI, yeni dag gorseli, TR/EN Access semasi ve rapor motoru korundu.
+
+ADIMLAR:
+1. ZIP'i yeni bir klasore tamamen cikar. Eskisiyle BIRLESTIRME.
+2. Orijinal GURBELEN-18.accdb dosyani bu klasore koy (orijinal kayitlar pakete eklenmez).
+3. 00_HEPSINI_HAZIRLA.bat dosyasini calistir.
+4. Windows'ta ACE/DAO bileseni TR/EN bos Access dosyalarini olusturur;
+   ardindan kutuphaneler kurulur, testler ve portable derleme baslar.
+5. Setup istersen Inno Setup uzerinden paketlenir.
+
+NOT: Bu ortamda Windows EXE/Inno ve ACE/DAO dogrulanamadi. Burada kaynak
+ve paket butunlugu testleri yapildi. Hazir Setup.exe ya da gercek .accdb
+bu ZIP icinde bulunmuyor.

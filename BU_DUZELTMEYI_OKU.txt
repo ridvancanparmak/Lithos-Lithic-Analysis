@@ -1,0 +1,22 @@
+LITHOS v1.0.2 — TAM TEMİZ PROJE / TEST DÜZELTMESİ
+
+BU PAKET ESKİ PAKETİN ÜZERİNE KOPYALANACAK BİR YAMA DEĞİLDİR.
+Yeni klasöre çıkarın. `00_HEPSINI_HAZIRLA.bat` dosyasını çalıştırın.
+Orijinal `GURBELEN-18.accdb` dosyasını projeye yakın konumda tutabilirsiniz.
+
+Önceki sorun:
+- Başarılı olarak üretilen iki boş Access şablonu, `test_no_proprietary_database_bundled`
+  tarafından yanlışlıkla birer yasak dosya olarak algılanıyordu.
+
+Yapılan düzeltme:
+- `Templates` içindeki iki boş dosya artık BEKLENEN ve İZİN VERİLEN dosyalardır:
+  `Lithos_GURBELEN18_Bos.accdb` ve `Lithos_GURBELEN18_Bos_EN.accdb`.
+- Test başka `.accdb` dosyalarının şablon klasörüne karışmasını reddeder.
+- Windows'ta DAO ile dört ana tablonun her iki şablonda da sıfır kayıt içerdiği doğrulanır.
+- Portable derleme artık `Templates\*.accdb` ile bütün veritabanlarını kopyalamaz:
+  yalnızca iki onaylı boş şablon ayrı ayrı dağıtıma alınır.
+- Araştırma verilerini içeren orijinal `GURBELEN-18.accdb` asla dağıtımın içine kopyalanmaz.
+
+ÖNEMLİ: Bu ortamda Windows/ACE çalıştırılamadığı için Windows doğrulaması
+bilgisayarınızda yapılır. Bu tam paket kaynak ve derleme dosyalarını içerir;
+hazır Windows Setup.exe değildir.

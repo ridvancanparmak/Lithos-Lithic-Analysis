@@ -1,0 +1,97 @@
+﻿Table,Field,EnglishCaption
+MAKROLİTLER,Aciklama,Description
+MAKROLİTLER,Alinan_urun_sayisi,Number of Removed Products
+MAKROLİTLER,Alt_tip,Subtype
+MAKROLİTLER,Analiz_No,Analysis No
+MAKROLİTLER,Budama,Truncation
+MAKROLİTLER,Cikarim_yonu,Scar Direction
+MAKROLİTLER,Cizim,Drawing
+MAKROLİTLER,Donem,Period
+MAKROLİTLER,Duzelti,Retouch
+MAKROLİTLER,Duzeltinin_kapladigi_alan,Retouch Coverage
+MAKROLİTLER,Duzeltinin_konumu,Retouch Position
+MAKROLİTLER,Dönem,Period
+MAKROLİTLER,Foto,Photograph
+MAKROLİTLER,Genislik,Width
+MAKROLİTLER,Kalinlik,Thickness
+MAKROLİTLER,Kenarlar,Edges
+MAKROLİTLER,Kesit,Cross Section
+MAKROLİTLER,Kopma_acisi,Angle of Detachment
+MAKROLİTLER,Kullanim_izi,Use-Wear
+MAKROLİTLER,Patina,Patina
+MAKROLİTLER,Profil,Profile
+MAKROLİTLER,Sap_duzeltisi,Hafting Retouch
+MAKROLİTLER,Tasimalik,Blank Type
+MAKROLİTLER,Taşımalık,Blank Type
+MAKROLİTLER,Tip,Type
+MAKROLİTLER,Tip_listesi,Tool Type List
+MAKROLİTLER,Topuk,Platform Type
+MAKROLİTLER,Uzunluk,Length
+MAKROLİTLER,Vurma_yumrusu,Bulb of Percussion
+MAKROLİTLER,Yil,Year
+MİKROLİT,Aciklama,Description
+MİKROLİT,Alt_tip,Subtype
+MİKROLİT,Analiz_No,Analysis No
+MİKROLİT,Cikarim_yonu,Scar Direction
+MİKROLİT,Cizim,Drawing
+MİKROLİT,Donem,Period
+MİKROLİT,Duzelti,Retouch
+MİKROLİT,Duzeltinin_kapladigi_alan,Retouch Coverage
+MİKROLİT,Duzeltinin_konumu,Retouch Position
+MİKROLİT,Dönem,Period
+MİKROLİT,Foto,Photograph
+MİKROLİT,Genislik,Width
+MİKROLİT,Kalinlik,Thickness
+MİKROLİT,Kenarlar,Edges
+MİKROLİT,Kesit,Cross Section
+MİKROLİT,Kopma_Acisi,Angle of Detachment
+MİKROLİT,Patina,Patina
+MİKROLİT,Profil,Profile
+MİKROLİT,Tasimalik,Blank
+MİKROLİT,Taşımalık,Blank Type
+MİKROLİT,Tip,Type
+MİKROLİT,Topuk,Platform Type
+MİKROLİT,Uzunluk,Length
+MİKROLİT,Vurma_yumrusu,Bulb of Percussion
+MİKROLİT,Yil,Year
+ÇEKİRDEKLER,Aciklama,Description
+ÇEKİRDEKLER,Alinan_urun_sayisi,Number of Removed Products
+ÇEKİRDEKLER,Alt_tip,Subtype
+ÇEKİRDEKLER,Analiz_No,Analysis No
+ÇEKİRDEKLER,Cikarim_yonu,Scar Direction
+ÇEKİRDEKLER,Cizim,Drawing
+ÇEKİRDEKLER,Donem,Period
+ÇEKİRDEKLER,Dönem,Period
+ÇEKİRDEKLER,Foto,Photograph
+ÇEKİRDEKLER,Genislik,Width
+ÇEKİRDEKLER,Kalinlik,Thickness
+ÇEKİRDEKLER,Patina,Patina
+ÇEKİRDEKLER,Son_alinan_urun,Last Removed Blank
+ÇEKİRDEKLER,Tip,Type
+ÇEKİRDEKLER,Uzunluk,Length
+ÇEKİRDEKLER,Vd/Ry_Acisi,Platform/Scar Angle
+ÇEKİRDEKLER,Vurma_düzlemi,Striking Platform
+ÇEKİRDEKLER,Yil,Year
+ÖZELLİKLER,Aciklama,Description
+ÖZELLİKLER,Alinan_urun_sayisi,Number of Removed Products
+ÖZELLİKLER,Alt_tip,Subtype
+ÖZELLİKLER,Analiz_No,Analysis No
+ÖZELLİKLER,Açıklama,Description
+ÖZELLİKLER,Buluntu_Alani,Find Area
+ÖZELLİKLER,Buluntu_Grubu,Find Group
+ÖZELLİKLER,Cizim,Drawing
+ÖZELLİKLER,Donem,Period
+ÖZELLİKLER,Foto,Photograph
+ÖZELLİKLER,Genislik,Width
+ÖZELLİKLER,Genişlik,Width
+ÖZELLİKLER,Ham_Yuz,Cortical Surface
+ÖZELLİKLER,Hammadde,Raw Material
+ÖZELLİKLER,Hammadde_Rengi,Raw Material Colour
+ÖZELLİKLER,Kabuk,Cortex
+ÖZELLİKLER,Kalinlik,Thickness
+ÖZELLİKLER,Kirik/Kirik_Alan,Breakage Area
+ÖZELLİKLER,Patina,Patina
+ÖZELLİKLER,Tip,Type
+ÖZELLİKLER,Uzunluk,Length
+ÖZELLİKLER,Yil,Year
+ÖZELLİKLER,Çizim,Drawing

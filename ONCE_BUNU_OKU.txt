@@ -1,0 +1,9 @@
+Lithos v1.0.2 — CLEAN SOURCE PACKAGE
+1. Put original GURBELEN-18.accdb beside 00_HEPSINI_HAZIRLA.bat (BUILD ONLY).
+2. Run 00_HEPSINI_HAZIRLA.bat on Windows.
+3. It generates BOTH empty Access templates BEFORE building portable EXE/Setup.
+4. Lithos opens directly; NO database language/startup wizard.
+5. Mountains use an independent 2172px wide native-aspect panorama.
+
+The two .accdb binaries cannot be pre-generated in this Linux session (ACE unavailable).
+NEVER distribute or overwrite your research data; the original file is not packaged here.
